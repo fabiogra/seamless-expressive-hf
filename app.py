@@ -238,13 +238,15 @@ TARGET_LANGUAGE_NAMES = [
     "French",
     "German",
     "Spanish",
+    "Italian",
 ]
 
 UPDATED_LANGUAGE_LIST = {
-    "English": ["French", "German", "Spanish"],
-    "French": ["English", "German", "Spanish"],
-    "German": ["English", "French", "Spanish"],
-    "Spanish": ["English", "French", "German"],
+    "English": ["French", "German", "Spanish", "Italian"],
+    "French": ["English", "German", "Spanish", "Italian"],
+    "German": ["English", "French", "Spanish", "Italian"],
+    "Spanish": ["English", "French", "German", "Italian"],
+    "Italian": ["English", "French", "German", "Spanish"],
 }
 
 def rs_change(rs):
